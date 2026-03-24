@@ -8,7 +8,7 @@ arch:
   - aarch64
   - armv7
 url: "https://github.com/tomquist/b2500-meter"
-image: "ghcr.io/tomquist/b2500-meter-addon"
+image: "ghcr.io/broodro0ster/b2500-meter-addon"
 panel_icon: "mdi:meter-electric"
 init: false
 startup: application
