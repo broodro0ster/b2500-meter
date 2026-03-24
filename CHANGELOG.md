@@ -1,5 +1,8 @@
 # Changelog
 
+## ct002.1.10
+- Added `POWER_OFFSET` and `POWER_MULTIPLIER` configuration options to apply a linear transformation to powermeter readings, allowing a bias toward export to minimise grid import
+
 ## 1.0.8
 - Added support for Modbus holding registers through new `REGISTER_TYPE` configuration option ([#173](https://github.com/tomquist/b2500-meter/pull/173))
 - Improved Shelly emulator with threaded UDP handling for better performance under concurrent requests when throttle interval is used ([#168](https://github.com/tomquist/b2500-meter/pull/168))
